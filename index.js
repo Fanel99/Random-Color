@@ -4,7 +4,6 @@ const chalk = require('chalk');
 const hueColor = process.argv[2];
 const luminosityColor = process.argv[3];
 
-
 const selectedColor = randomColor({
   hue: hueColor,
   luminosity: luminosityColor,

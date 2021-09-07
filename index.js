@@ -10,7 +10,7 @@ const selectedColor = randomColor({
 });
 
 if (process.argv[2] === 'ask') {
-  console.log('gimme color and luminosity');
+  console.log('please type  color and luminosity');
 } else {
   const amountColumn = 31;
   const amountRow = 9;
